@@ -11,7 +11,7 @@ function spliceElement(someArr, index) {
         i++
     }
     i++
-    //we add the back half of the array into the new arary - 1 to prevent the removed index from being undefined
+    //we add the back half of the array into the new array - 1 to prevent the removed index from being undefined
     while(i < someArr.length){
         result[i - 1] = someArr[i]
         i++        
