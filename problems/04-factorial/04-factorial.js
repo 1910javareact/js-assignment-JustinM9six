@@ -14,4 +14,4 @@ function factorial(sumNum) {
     c = sumNum
     return factorial(sumNum - 1)  
 }
-console.log(factorial(5));
+console.log(factorial(8));

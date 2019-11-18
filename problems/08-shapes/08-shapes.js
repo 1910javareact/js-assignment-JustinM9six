@@ -75,4 +75,6 @@ function printShape(shape, height, character) {
       break;
   }  
 }
+printShape(`square`, 3, `$`);
+printShape(`triangle`, 4, `#`);
 printShape(`diamond`, 5, `%`);
